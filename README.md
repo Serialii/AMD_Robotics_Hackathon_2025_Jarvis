@@ -25,6 +25,10 @@ JARVIS transforms the SO-101 robotic arm into an intuitive, multi-modal coworker
 
 ---
 
+## Mission 1: print("Hello World")
+This mission was there for us to understand better the lerobot and the tools provided by AMD
+https://github.com/user-attachments/assets/055a1938-6cb3-4a7d-97e6-0ec5a299487c
+
 ## 1. Mission Description: The Hands-Free Teammate 🤝
 ### Real-World Application: 
 Preserving Human FocusThe central use case is simple yet critical: preventing the loss of focus when a worker needs a tool. Imagine a surgeon, an assembly line technician, or an electronics maker who can request a tool without looking away from their delicate task.
@@ -51,6 +55,7 @@ JARVIS sets a new standard for human-robot interaction by integrating **Personal
 ## 3. Technical Implementation
 ### Architecture Overview
 The system runs on the Ryzen AI 9 HX 370, orchestrating multiple concurrent AI pipelines:
+https://github.com/user-attachments/assets/9a64c35d-0ad0-4249-b28e-49b96f4a66f7
 
 ```mermaid
 graph TD
@@ -123,9 +128,12 @@ pip install -r requirements.txt
 
 # Install Ollama and pull Llama 3.2 for local conversational AI
 # (Ollama setup instructions)
+ollama pull llama_3.2
 
 # Run the UI
 streamlit run jarvis.py
 
 ```
+## Additional Links
+All the models and the dataset can be found in huggingface.co/Abubakar17.
 
