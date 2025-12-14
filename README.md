@@ -6,7 +6,7 @@
 ## Demo Video 
 **[Watch JARVIS in Action Here!](https://www.google.com/search?q=link_to_demo_video)**
 
-*Video highlights: Conversational command \rightarrow Safe hand detection handoff \rightarrow Assembly sequence \rightarrow Fist bump celebration \rightarrow Tic-Tac-Toe.*
+*Video highlights: Conversational command \rightarrow Safe handoff \rightarrow Assembly sequence \rightarrow Fist bump celebration \rightarrow Tic-Tac-Toe.*
 
 ---
 
@@ -14,7 +14,7 @@
 
 JARVIS transforms the SO-101 robotic arm into an intuitive, multi-modal coworker. Our system's core mission is to protect human workflow and focus in high-precision environments. Instead of relying on buttons or complex code, JARVIS allows users to request tools and components using **natural voice commands**.
 
-**The JARVIS Difference:** It doesn't just execute; it collaborates. It sees your hand (MediaPipe) for a safe handoff, hears your commands (Google Speech Recognition), and responds contextually with personality (Llama 3.2), making human-robot interaction natural, safe, and even enjoyable.
+**The JARVIS Difference:** It doesn't just execute; it collaborates. It sees your hand for a safe handoff, hears your commands (Google Speech Recognition), and responds contextually with personality (Llama 3.2), making human-robot interaction natural, safe, and even enjoyable.
 
 ## Team Information
 | Detail | Value |
@@ -37,7 +37,7 @@ Preserving Human FocusThe central use case is simple yet critical: preventing th
 
 JARVIS addresses this need, enabling:
 * **Focus State Protection:** Hands-free retrieval of tools and components via voice commands.
-* **Proactive, Safe Collaboration:** The robot anticipates needs and uses real-time hand detection to ensure the object is only released into a ready human hand.
+* **Proactive, Safe Collaboration:** The robot anticipates needs and uses hand detection to ensure the object is only released into a ready human hand.
 * **Target Environments:** Manufacturing, automotive assembly, specialized workshops, surgical rooms, and research laboratories.
 
 ## 2. Creativity & Innovation ✨
@@ -65,7 +65,7 @@ graph TD
     B --> C{Policy Selector / Orchestrator};
     subgraph Inference & Execution
         C --> D(LeRobot ACT Policies: give_box, give_tape, fist_bump, etc.);
-        C --> E[MediaPipe Hand Detection / Safe Handoff Gate];
+        C --> E[Safe Handoff Gate];
         D --> F(SO-101 Execution);
         E --> F;
     end
@@ -95,7 +95,6 @@ We tried both methods and all the datasets and models can be found here[https://
 ### Inference Stack
 * **Platform:** Dell Pro Max 16 Laptop (Ryzen AI 9 HX 370).
 * **LLM:** **Ollama (Llama 3.2)** provides rapid, local conversational intelligence.
-* **Handoff Safety:** MediaPipe runs in parallel to ensure the robot waits for an appropriate hand presence before releasing the object.
 * **Interface:** Custom, production-ready **Streamlit UI** for visualization, control, and status monitoring.
 
 ## 4. Ease of Use and Generalizability ⚙️
@@ -116,7 +115,7 @@ The system is designed to be easily expanded without retraining the entire polic
 * Camera indices, USB ports, and recognition sensitivities are all adjustable via the configuration file.
 
 ### No Code Required for End User
-The end user interacts entirely through the intuitive visual interface or voice. The system features a clear UI with a real-time visualization of hand detection, command history, and a prominent **One-Click Emergency Stop**.
+The end user interacts entirely through the intuitive visual interface or voice. The system features a clear UI with a real-time visualization, command history, and a prominent **One-Click Emergency Stop**.
 
 ## 🛠️ Installation & Setup
 ### Prerequisites
