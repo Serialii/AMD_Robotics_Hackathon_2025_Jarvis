@@ -129,6 +129,3 @@ streamlit run jarvis.py
 
 ```
 
----
-
-This README is comprehensive, structured, and emphasizes the unique, human-centric aspects of your project! Let me know if you would like to add any specific hardware/software logos or refine the setup instructions further.
