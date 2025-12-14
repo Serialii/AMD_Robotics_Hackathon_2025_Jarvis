@@ -27,6 +27,7 @@ JARVIS transforms the SO-101 robotic arm into an intuitive, multi-modal coworker
 
 ## Mission 1: print("Hello World")
 This mission was there for us to understand better the lerobot and the tools provided by AMD
+
 [Watch the demo video](https://github.com/user-attachments/assets/055a1938-6cb3-4a7d-97e6-0ec5a299487c)
 
 
