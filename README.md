@@ -48,7 +48,9 @@ JARVIS sets a new standard for human-robot interaction by integrating **Personal
 * **Orchestrated Policy Architecture:** We trained specialized LeRobot policies (ACT architecture) for specific actions (*give_box*, *fist_bump*, *take_from_hand*) and built an intelligent orchestrator to seamlessly select and switch between them based on LLM context.
 * **Gamification:** The ability to execute a celebratory **Fist Bump** and play **Tic-Tac-Toe** (fully implemented) showcases the system's potential for complex, non-industrial social interaction.
 
-## 3. Technical Implementation###Architecture OverviewThe system runs on the Ryzen AI 9 HX 370, orchestrating multiple concurrent AI pipelines:
+## 3. Technical Implementation
+### Architecture Overview
+The system runs on the Ryzen AI 9 HX 370, orchestrating multiple concurrent AI pipelines:
 
 ```mermaid
 graph TD
