@@ -58,7 +58,8 @@ JARVIS sets a new standard for human-robot interaction by integrating **Personal
 ## 3. Technical Implementation
 ### Architecture Overview
 The system runs on the Ryzen AI 9 HX 370, orchestrating multiple concurrent AI pipelines:
-https://github.com/user-attachments/assets/9a64c35d-0ad0-4249-b28e-49b96f4a66f7
+[Creating Dataset video](https://github.com/user-attachments/assets/f6a135c9-9a8d-4bb0-91d3-bac29d13bc2b
+o)
 
 ```mermaid
 graph TD
