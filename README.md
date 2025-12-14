@@ -1,20 +1,20 @@
 
-##🤖 JARVIS: Just A Rather Very Intelligent System###Collaborative AI Assistant using LeRobot and AMD MI300X---
+##JARVIS: Just A Rather Very Intelligent System###Collaborative AI Assistant using LeRobot and AMD MI300X---
 
-##🎬 Demo Video & Repository| Demo Video (Required) | Repository |
-| --- | --- |
-| **[Watch JARVIS in Action Here!](https://www.google.com/search?q=link_to_demo_video)** |
+##Demo Video 
+**[Watch JARVIS in Action Here!](https://www.google.com/search?q=link_to_demo_video)**|
 
 *Video highlights: Conversational command \rightarrow Safe hand detection handoff \rightarrow Assembly sequence \rightarrow Fist bump celebration \rightarrow Tic-Tac-Toe.*
 
 ---
 
-##💡 Project Summary
+##Project Summary
 JARVIS transforms the SO-101 robotic arm into an intuitive, multi-modal coworker. Our system's core mission is to protect human workflow and focus in high-precision environments. Instead of relying on buttons or complex code, JARVIS allows users to request tools and components using **natural voice commands**.
 
 **The JARVIS Difference:** It doesn't just execute; it collaborates. It sees your hand (MediaPipe) for a safe handoff, hears your commands (Google Speech Recognition), and responds contextually with personality (Llama 3.2), making human-robot interaction natural, safe, and even enjoyable.
 
-##👥 Team Information| Detail | Value |
+##Team Information
+| Detail | Value |
 | --- | --- |
 | **Team Name** | MasterBlasters |
 | **Team Number** | 16 |
@@ -30,7 +30,8 @@ JARVIS addresses this need, enabling:
 * **Proactive, Safe Collaboration:** The robot anticipates needs and uses real-time hand detection to ensure the object is only released into a ready human hand.
 * **Target Environments:** Manufacturing, automotive assembly, specialized workshops, surgical rooms, and research laboratories.
 
-##2. Creativity & Innovation ✨JARVIS sets a new standard for human-robot interaction by integrating **Personality** and **Multi-Modal Intelligence**.
+##2. Creativity & Innovation ✨
+JARVIS sets a new standard for human-robot interaction by integrating **Personality** and **Multi-Modal Intelligence**.
 
 | Feature | Traditional Robots | JARVIS |
 | --- | --- | --- |
