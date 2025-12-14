@@ -1,5 +1,5 @@
 
-##JARVIS: Just A Rather Very Intelligent System###Collaborative AI Assistant using LeRobot and AMD MI300X
+##JARVIS: Just A Rather Very Intelligent System###Collaborative AI Assistant using LeRobot and AMD MI300X##
 
 ##Demo Video 
 **[Watch JARVIS in Action Here!](https://www.google.com/search?q=link_to_demo_video)**
