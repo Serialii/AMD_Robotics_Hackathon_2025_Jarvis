@@ -4,7 +4,7 @@
 ### Collaborative AI Assistant using LeRobot and AMD MI300X
 
 ## Demo Video 
-**[Watch JARVIS in Action Here!]([https://www.google.com/search?q=link_to_demo_video](https://drive.google.com/file/d/14S0O39TMilYhmOKVo34t6YSJ8d1ZE9NY/view?usp=drive_link))**
+**[Watch JARVIS in Action Here!](https://www.google.com/search?q=link_to_demo_video](https://drive.google.com/file/d/14S0O39TMilYhmOKVo34t6YSJ8d1ZE9NY/view?usp=drive_link)**
 
 *Video highlights: Conversational command \rightarrow Safe handoff \rightarrow Assembly sequence \rightarrow Fist bump celebration \rightarrow Tic-Tac-Toe.*
 
